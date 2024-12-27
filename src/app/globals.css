@@ -2,20 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+  body {
+    background-color: #141414;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+}
+input {
+    all: unset; /* Resets all inherited and default styles */
+    box-sizing: border-box; /* Ensures consistent box-sizing */
+    border: solid 1px;
+    border-color: #232323;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-top: 12px;
+    color: #CDCDCD;
   }
+  input:focus {
+    border: 1px solid #38b2ac;
+    outline: none;
+    color: #CDCDCD;
+    opacity: 80;
+  }
+
+  /* For most modern browsers */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+html {
+    scroll-behavior: smooth;
 }
