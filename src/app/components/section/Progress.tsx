@@ -1,7 +1,8 @@
+/* eslint-disable react/jsx-key */
 import ProgressCard from '../../../app/assets/Container.png'
 import Arrow from '../../../app/assets/Arrow.svg'
 import { useRef, useState } from 'react'
-import { animate, motion, useInView } from 'framer-motion'
+import {  motion, useInView } from 'framer-motion'
 
 export const Progress = () => {
     const progressList = [{

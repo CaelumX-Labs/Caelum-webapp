@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Logo from '../../../app/assets/Logo.svg'
 import X from '../../../app/assets/X.svg'
 import Whatsapp from '../../../app/assets/Whatsapp.svg'

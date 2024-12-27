@@ -5,7 +5,6 @@ import { Button } from '../components/Button'
 import { NameInput } from '../components/form/name-input'
 import { EmailInput } from '../components/form/email-input'
 import Logo from '../assets/Logo.svg'
-import { div } from 'framer-motion/client'
 interface FormData {
   fullName: string
   email: string
@@ -75,7 +74,7 @@ export default function WaitlistForm() {
       <div className="relative z-10 w-full max-w-md space-y-8">
         <div className="text-center space-y-2">
           <div className="text-gray-500 text-sm tracking-wider">
-          Caelum X is a pioneering decentralized application (dApp) designed to revolutionize carbon credit trading using the power of blockchain technology. By leveraging Solana's high throughput and low transaction costs, Caelum X makes carbon credit trading efficient, transparent, and accessible to individuals, companies, and organizations.
+          Caelum X is a pioneering decentralized application (dApp) designed to revolutionize carbon credit trading using the power of blockchain technology. By leveraging Solana high throughput and low transaction costs, Caelum X makes carbon credit trading efficient, transparent, and accessible to individuals, companies, and organizations.
          </div>
           <h1 className="text-4xl font-bold tracking-tight">
             Join the waitlist for the{' '}

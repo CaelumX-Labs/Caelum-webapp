@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import CardImage from '../../../app/assets/Card.jpeg'
 import Noice from '../../../app/assets/Background.svg'
 import Card_1 from '../../../app/assets/Card1.png'

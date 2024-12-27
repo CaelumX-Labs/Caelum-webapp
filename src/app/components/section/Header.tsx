@@ -1,3 +1,4 @@
+/* eslint-disable react/no-children-prop */
 import { useState, useEffect } from 'react';
 import Logo from '../../../app/assets/Logo.png';
 import { Button } from '../Button';
@@ -31,7 +32,7 @@ export const Headers = () => {
       </div>
       <div className="flex">
         <div className="inline-flex">
-          <Button label="Connet Wallet" />
+          <Button label="Connet Wallet" className={''} children={undefined} />
         </div>
       </div>
     </nav>

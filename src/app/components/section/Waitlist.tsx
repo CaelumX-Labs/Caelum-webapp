@@ -1,9 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import { useState } from 'react'
 import { ArrowRight } from 'lucide-react'
-import { Button } from '../components/Button'
-import { NameInput } from '../components/form/name-input'
-import { EmailInput } from '../components/form/email-input'
+import { Button } from '../Button'
+import { NameInput } from '../form/name-input'
+import { EmailInput } from '../form/email-input'
 import Logo from '../assets/Logo.svg'
 interface FormData {
   fullName: string

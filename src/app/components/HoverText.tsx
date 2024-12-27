@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, type PropsWithoutRef } from "react";
-export const HoverableText = (props : PropsWithoutRef<'h1'> & { name ?: String, year ?: String, align ?: String }) => {
+export const HoverableText = (props : PropsWithoutRef<'h1'> & { name ?: string, year ?: string, align ?: string }) => {
 
     const {name, year, align} = props
     const [hovered, setHovered] = useState(false);

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { useMotionValueEvent, useScroll, useTransform } from "framer-motion";
+import { useMotionValueEvent, useScroll } from "framer-motion";
 export const NavBar = () => {
       const navItems = [
         {

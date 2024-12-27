@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import Globe from '../../../app/assets/Globe.png';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';

@@ -1,10 +1,22 @@
+ 
+/* eslint-disable react/jsx-key */
 import type { ComponentPropsWithoutRef } from "react";
 import { Price } from "./Price"
+import { Tag } from "lucide-react";
 
-export const Card = (props : ComponentPropsWithoutRef<'div'> & {cardDetails ?: object;}) => {
+interface CardDetails {
+    lable: string;
+    country: string;
+    tags: { svg: string; lable: string }[];
+    carbonCredits: number;
+    vintageYear: number;
+    price: number;
+}
 
-    const {cardDetails, ...rest } = props
-    const { lable, task, country, tags , carbonCredits, vintageYear, price} = cardDetails
+export const Card = (props : ComponentPropsWithoutRef<'div'> & {cardDetails ?: CardDetails;}) => {
+
+    const {cardDetails } = props
+    const { lable, task, country, tags , carbonCredits, vintageYear} = cardDetails || { lable: '', task: '', country: '', tags: [], carbonCredits: 0, vintageYear: 0, price: 0 }
 
     return <div>
         <div>

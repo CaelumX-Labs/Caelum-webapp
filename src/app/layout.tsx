@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Azeret_Mono as Geist_Mono } from 'next/font/google';
 import { Inter } from 'next/font/google';
 import "./globals.css";
-import Image from 'next/image';
-import logo from '../../public/assets/Logo.png';
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
