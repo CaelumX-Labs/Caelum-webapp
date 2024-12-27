@@ -16,7 +16,7 @@ interface CardDetails {
 export const Card = (props : ComponentPropsWithoutRef<'div'> & {cardDetails ?: CardDetails;}) => {
 
     const {cardDetails } = props
-    const { lable, task, country, tags , carbonCredits, vintageYear} = cardDetails || { lable: '', task: '', country: '', tags: [], carbonCredits: 0, vintageYear: 0, price: 0 }
+    const { lable,  country, tags , carbonCredits, vintageYear} = cardDetails || { lable: '', country: '', tags: [], carbonCredits: 0, vintageYear: 0, price: 0 }
 
     return <div>
         <div>
@@ -34,7 +34,6 @@ export const Card = (props : ComponentPropsWithoutRef<'div'> & {cardDetails ?: C
                 <div>
                     <h3>{lable}</h3>
                     <div>
-                        <p>{task}</p>
                         <address>{country}</address>
                     </div>
                 </div>
