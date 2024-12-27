@@ -1,3 +1,4 @@
+/* eslint-disable react/no-children-prop */
 import { useRef, useState } from 'react'
 import Arrow from '../../../app/assets/Arrow.svg'
 import { Button } from '../Button'
@@ -115,7 +116,7 @@ export const GetInTouch = () => {
                 </div>
                 <div className='inline-flex'>
 
-                    <Button label='Submit' />
+                    <Button label='Submit' className={''} children={undefined} />
                 </div>
             </div>
         </div>

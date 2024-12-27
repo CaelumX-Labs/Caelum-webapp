@@ -54,7 +54,7 @@ export const Collaboration = () => {
                             transition={{ duration: 0.8, ease: 'easeOut', delay:index*0.4 }}
 
                             >
-                            <HoverableText key={name} name={name} year={year} align="start" />
+                            <HoverableText key={name} name={name} year={year.toString()} align="start" />
                             </motion.div>
                         ))}
                     </div>

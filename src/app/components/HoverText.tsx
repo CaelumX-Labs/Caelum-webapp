@@ -1,5 +1,30 @@
 import { motion } from "framer-motion";
 import { useState, type PropsWithoutRef } from "react";
+
+
+
+export const HoverableText = ({ name, year, align }: { name: string; year: string; align: string }) => {
+
+    return (
+
+        <div className={`text-${align}`}>
+
+            <h1>{name}</h1>
+
+            <p>{year}</p>
+
+        </div>
+
+    );
+
+};
+
+HoverableText.defaultProps = {
+
+    align: 'start',
+
+};
+
 export const HoverableText = (props : PropsWithoutRef<'h1'> & { name ?: string, year ?: string, align ?: string }) => {
 
     const {name, year, align} = props

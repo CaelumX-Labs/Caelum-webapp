@@ -75,7 +75,7 @@ export const HeroSection = () => {
               delay,
               duration: 3,
               repeat: Infinity,
-              repeatType: "reverse",
+              repeatType: "reverse" as const,
             },
           },
           whileHover: {
