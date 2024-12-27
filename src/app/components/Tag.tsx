@@ -1,11 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import type { PropsWithoutRef } from "react"
 
-export const Price = (props : PropsWithoutRef<'div'> & {svg ?: svg; lable ?:lable }) => {
+export const Price = () => {
     return <div>
         <div>
-            {svg}
+            <svg />
         </div>
-        <label htmlFor="">{lable}</label>
+        <label htmlFor="">Label Text</label>
     </div>
 }
