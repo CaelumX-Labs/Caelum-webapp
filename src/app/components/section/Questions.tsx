@@ -36,8 +36,8 @@ export const Questions = () => {
         </div>
         <div>
             <div className="bg-[#0F0F0F] rounded-xl p-10 flex flex-col gap-8 mt-12">
-{                questionAnswer.map((qna, index) => (
-                    <QnA key={index} {...qna} />
+{                questionAnswer.map((Qna, index) => (
+                    <QnA key={index} {...Qna} />
                 ))}
             </div>
         </div>

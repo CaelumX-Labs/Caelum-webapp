@@ -1,5 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import { useState, type PropsWithoutRef } from 'react';
+import { useState } from 'react';
 import Add from '../assets/Add.svg';
 
 
@@ -16,7 +15,7 @@ interface QnAProps {
 
 
 
-const QnA: React.FC<QnAProps> = ({ question, answer }) => {
+export const QnA: React.FC<QnAProps> = ({ question, answer }) => {
 
   const [open, setOpen] = useState(false);
 
