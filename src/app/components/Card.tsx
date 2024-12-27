@@ -1,5 +1,5 @@
- 
 /* eslint-disable react/jsx-key */
+ 
 import type { ComponentPropsWithoutRef } from "react";
 import { Price } from "./Price"
 import { Tag } from "lucide-react";
@@ -16,7 +16,7 @@ interface CardDetails {
 export const Card = (props : ComponentPropsWithoutRef<'div'> & {cardDetails ?: CardDetails;}) => {
 
     const {cardDetails } = props
-    const { lable,  country, tags , carbonCredits, vintageYear} = cardDetails || { lable: '', country: '', tags: [], carbonCredits: 0, vintageYear: 0, price: 0 }
+    const { lable,  country, tags , carbonCredits, vintageYear} = cardDetails || { lable: '', task: '', country: '', tags: [], carbonCredits: 0, vintageYear: 0, price: 0 }
 
     return <div>
         <div>
@@ -34,12 +34,13 @@ export const Card = (props : ComponentPropsWithoutRef<'div'> & {cardDetails ?: C
                 <div>
                     <h3>{lable}</h3>
                     <div>
+                       
                         <address>{country}</address>
                     </div>
                 </div>
                 <div>
-                { tags.map(({svg, lable}) => (
-                        < Tag svg={svg} lable={lable} />
+                { tags.map(({svg}) => (
+                        < Tag key={svg}  />
                     ))}
                 </div>
                 <div>
