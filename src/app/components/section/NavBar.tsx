@@ -21,6 +21,10 @@ export const NavBar = () => {
         {
             name: 'Contact',
             id : '#ContactUs' },
+            {
+              name : 'Verify Credits',
+              id : 'https://caelum-r.vercel.app/'
+            }
       ];
 
 
