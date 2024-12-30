@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.1",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "astro": "^5.0.5",

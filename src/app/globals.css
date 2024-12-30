@@ -7,6 +7,15 @@
     background-color: #141414;
 }
 
+.custom-wallet-button {
+  background-color: #4caf50 !important; /* Change to your desired color */
+  color: white !important; /* Change the text color */
+  border: none !important; /* Remove border if needed */
+  border-radius: 8px !important; /* Adjust border radius */
+  padding: 8px 16px !important; /* Adjust padding */
+  font-size: 14px !important; /* Adjust font size */
+  cursor: pointer !important;
+}
 }
 input {
     all: unset; /* Resets all inherited and default styles */

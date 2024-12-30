@@ -1,7 +1,8 @@
 /* eslint-disable react/no-children-prop */
 import { useState, useEffect } from 'react';
 import Logo from '../../../app/assets/Logo.png';
-import { Button } from '../Button';
+// import { Button } from '../Button';
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 export const Headers = () => {
 
@@ -19,6 +20,8 @@ export const Headers = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+
+
   return (
     <nav
       className={`flex w-full justify-between items-center px-8 py-4 transition-all duration-300 z-40 ${
@@ -32,7 +35,18 @@ export const Headers = () => {
       </div>
       <div className="flex">
         <div className="inline-flex">
-          <Button label="Connet Wallet" className={''} children={undefined} />
+        <div className="border hover:border-slate-900 rounded">
+
+        <WalletMultiButton   style={{
+    backgroundColor: '#4caf50', // Change to desired color
+    color: 'white',
+    border: 'none',
+    borderRadius: '8px',
+    padding: '10px 20px',
+    cursor: 'pointer',
+  }} />
+        </div>
+
         </div>
       </div>
     </nav>
