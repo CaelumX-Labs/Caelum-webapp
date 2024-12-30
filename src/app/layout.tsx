@@ -38,12 +38,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} font-sans antialiased`}
       >
-               <AppWalletProvider>{children}</AppWalletProvider>
+
 
         <header>
+      
         </header>
-        {children}
-
+       
+        <AppWalletProvider>{children}</AppWalletProvider>
       </body>
     </html>
   );
