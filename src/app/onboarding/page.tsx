@@ -9,10 +9,16 @@ import SmallCactus from "../../../public/images/SmallCactus.png";
 import { motion } from "framer-motion";
 
 export default function OnBoarding() {
-  const [activeCard, setActiveCard] = useState("");
+
+  const [activeCard, setActiveCard] = useState<string | null>(null);
 
   const isActive = (card: string) => activeCard === card;
-
+  const handleCardClick = (card: string) => {
+    setActiveCard(card);
+    if (card === 'Big') {
+      window.location.href = 'https://caelum-r.vercel.app/';
+    }
+  };
   return (
     <div className="w-full p-10 overflow-hidden h-screen bg-[#0C0B10] container m-auto bg-[#232228] h-full w-full rounded-3xl border border-white/10">
       <div className="flex flex-col h-full">
@@ -59,7 +65,7 @@ export default function OnBoarding() {
                 : {}
             }
             transition={{ duration: 0.3 }}
-            onClick={() => setActiveCard("Big")}
+            onClick={() => handleCardClick('Big')}
             className="border-white/10 p-6 flex flex-col gap-6 rounded-3xl border-[1px] max-w-xs w-full"
           >
             {/* Card Content */}
