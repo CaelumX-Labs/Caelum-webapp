@@ -89,7 +89,7 @@ export const HeroSection = () => {
         <div className="z-0 overflow-hidden inline-flex items-center justify-center mt-20">
            <div className='w-full flex items-center justify-center'>
            <h1
-                className="pl-4 text-[116px]  tracking-tight leading-[120px]  uppercase font-extrabold font-['Anton_SC'] text-[#CDCDCD]"
+                className="pl-4 text-[116px] tracking-[0.02em] tracking-tight leading-[120px]  uppercase font-extrabold font-['Anton_SC'] text-[#CDCDCD]"
             >Building a <span className="text-[#39B79F]">Carbon-Neutral</span> World with Blockchain </h1>
            </div>
         </div>
