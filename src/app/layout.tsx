@@ -3,7 +3,6 @@ import { Geist, Azeret_Mono as Geist_Mono } from 'next/font/google';
 import { Inter } from 'next/font/google';
 import "./globals.css";
 import AppWalletProvider from "./components/AppWalletProvider";
-import { GoogleAnalytics } from 'nextjs-google-analytics';
 
 
 const geistSans = Geist({
