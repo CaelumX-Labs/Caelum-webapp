@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Logo from '../../../app/assets/Logo.svg'
 import X from '../../../app/assets/X.svg'
-import Whatsapp from '../../../app/assets/Whatsapp.svg'
-import Instagram from '../../../app/assets/Instagram.svg'
+
 import Gmail from '../../../app/assets/Gmail.svg'
 
 export const Footer = () => {
@@ -52,8 +51,6 @@ export const Footer = () => {
             </div>
             <div className='flex flex-row gap-4 justify-end '>
                 <img src={X.src} alt="X" />
-                <img src={Whatsapp.src} alt="Whatsapp" />
-                <img src={Instagram.src} alt="Instagram" />
                 <img src={Gmail.src} alt="Gmail" />
             </div>
         </div>
