@@ -48,7 +48,7 @@ export const Footer = () => {
         </div>
         <div className='flex flex-row  justify-between items-center px-12 py-6 border-t-[1px] border-zinc-500/30' >
             <div className='text-zinc-400 text-sm'>
-                <p>&copy; 2024 Blockforge. All rights reserved.</p>
+                <p>&copy; 2025 CaelumX-Labs. All rights reserved.</p>
             </div>
             <div className='flex flex-row gap-4 justify-end '>
                 <img src={X.src} alt="X" />
