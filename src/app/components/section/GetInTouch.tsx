@@ -11,7 +11,7 @@ export const GetInTouch = () => {
     },
     {
         label: 'Email',
-        value: 'rhulam100@gmail.com'
+        value: 'founder@caelum-x.com'
     }, {
         label: 'Phone',
         value: '+91 9987345252'
