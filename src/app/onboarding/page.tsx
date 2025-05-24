@@ -16,7 +16,7 @@ export default function OnBoarding() {
   const handleCardClick = (card: string) => {
     setActiveCard(card);
     if (card === 'Big') {
-      window.location.href = 'https://caelum-r.vercel.app/';
+      window.location.href = 'https://registry.caelum-x.com/';
     }
   };
   return (
