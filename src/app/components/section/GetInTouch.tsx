@@ -12,9 +12,6 @@ export const GetInTouch = () => {
     {
         label: 'Email',
         value: 'founder@caelum-x.com'
-    }, {
-        label: 'Phone',
-        value: '+91 9987345252'
     }]
     const sectionRef = useRef(null)
     const isInView = useInView(sectionRef, {once:true, margin:'-40px'})
@@ -104,10 +101,6 @@ export const GetInTouch = () => {
                     <div className='flex flex-col w-1/2'>
                         <label className='text-zinc-100 ' htmlFor="email">Email</label>
                         <input type="email" placeholder='john@gmail.com' id='email' />
-                    </div>
-                    <div className='flex flex-col w-1/2'>
-                        <label className='text-zinc-100 ' htmlFor="phone">Phone Number</label>
-                        <input type="number" placeholder='+91 9987345252' id='phone' />
                     </div>
                 </div>
                 <div className='flex flex-col'>
