@@ -55,7 +55,7 @@ export const Feature = () => {
                     <h5 className='text-sm text-transparent bg-clip-text bg-gradient-to-r from-[#14B7A6]/80 via-[rgba(255,255,255,.88)] to-[rgba(255,255,255,0.88)]'>Tokenisation & Ownership Unlocked</h5>
                     <h3 className='text-3xl text-zinc-200'>Unlock the power of <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#14B7A6]/80 via-[rgba(255,255,255,.88)] to-[rgba(255,255,255,0.88)]'>Tokenization</span> & <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#14B7A6]/80 via-[rgba(255,255,255,.88)] to-[rgba(255,255,255,0.88)]'>Fractional Ownership</span> Carbon Credits with <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#14B7A6]/80 via-[rgba(255,255,255,.88)] to-[rgba(255,255,255,0.88)]'>Caelum</span></h3>
                 </div>
-                <p className='text-sm text-zinc-400 font-light'>Caelum revolutionizes carbon offsetting by making it accessible to everyone. Through tokenization, carbon credits are digitized for seamless trading, while fractional ownership allows individuals and businesses to contribute to sustainability, no matter their size. Empower your journey toward a greener future with ease and transparency.</p>
+                <p className='text-sm text-zinc-400 font-light'>Caelum makes carbon offsetting accessible to all through tokenized, fractional carbon credits—empowering a transparent and inclusive path to a greener future.</p>
                 </motion.div>
             </div>
             <div className='flex w-full flex-row items-center justify-between '>
