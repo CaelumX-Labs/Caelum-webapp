@@ -95,7 +95,7 @@ export const HeroSection = () => {
         </div>
         <div className='flex-row flex justify-between  items-end p-5'>
             <div className='inline-flex w-2/3 items-center '>
-                <h3 className='text-zinc-400 text-sm leading-[24px]'>Unlock the power of fractional ownership and make carbon offsetting accessible to everyone. Our platform allows individuals and businesses to buy and trade tokenized carbon credits, ensuring transparency at every step with blockchain technology. With real-time tracking and a decentralized system, you can confidently participate in the carbon market, knowing that every transaction is secure, verifiable, and impactful. Join the waitlist to be part of the future or track your progress with transparency on X.</h3>
+                <h3 className='text-zinc-400 text-sm leading-[24px]'>With Caelum, anyone—from individuals to businesses—can buy, trade, or retire carbon credits in just a few clicks. Thanks to blockchain and fractional ownership, every action is transparent, secure, and trackable in real time. Join the waitlist today or follow your sustainability journey on X.</h3>
             </div>
             <div className='inline-flex gap-3 mr-2  flex-col justify-end items-end'>
             <motion.button
