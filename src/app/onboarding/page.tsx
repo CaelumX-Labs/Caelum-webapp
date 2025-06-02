@@ -16,7 +16,7 @@ export default function OnBoarding() {
   const handleCardClick = (card: string) => {
     setActiveCard(card);
     if (card === 'Big') {
-      window.location.href = 'https://registry.caelum-x.com/';
+      window.location.href = 'https://www.caelum-x.com/login';
     }
   };
   return (
