@@ -74,7 +74,7 @@ export default function LoginPage() {
 
     try {
       // Step 1: Fetch nonce
-      const response = await fetch("https://api.caelum-x.com/api/auth/get-challenge", {
+      const response = await fetch("http://api.caelum-x.com/api/auth/get-challenge", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ wallet: walletAddress }),
@@ -93,7 +93,7 @@ export default function LoginPage() {
       const signature = bs58.encode(signed.signature)
 
       // Step 3: Send signed message for verification
-      const verifyRes = await fetch("https://api.caelum-x.com/api/auth/verify", {
+      const verifyRes = await fetch("http://api.caelum-x.com/api/auth/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
